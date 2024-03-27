@@ -81,7 +81,7 @@ body {
     text-decoration: none;
     color: black;
     position: relative;
-    transition: transform 0.3s ease; /* Add transition property */
+    transition: transform 0.3s ease;
 }
 
 .link-block h1 {
@@ -98,10 +98,10 @@ body {
 
 .link-block:hover {
     background-color: #ffd727;
-    transform: scale(1.05); /* Scale up by 10% */
+    transform: scale(1.05);
 }
 .link-block:last-child {
-    margin-bottom: 50px; /* Add margin to the last block */
+    margin-bottom: 50px;
 }
 
 .footer-logos {
@@ -110,18 +110,6 @@ body {
     align-items: center;
     padding: 5px;
 }
-
-/*.footer-logos {*/
-/*    position: absolute;*/
-/*    bottom: 1vh; !* Adjust as needed *!*/
-/*    left: 50%;*/
-/*    transform: translateX(-50%);*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    background-color: red;*/
-/*}*/
-
 .footer-logos i {
     padding: 10px 5px 0 5px;
 }
