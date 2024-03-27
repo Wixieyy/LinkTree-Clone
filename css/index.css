@@ -24,7 +24,7 @@ body {
     flex-direction: column; /* Make body a flex container with column direction */
     justify-content: space-between; /* Push footer to the bottom */
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     box-shadow: inset 0 0 70px 30px;
 }
@@ -108,8 +108,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: red;*/
-    margin-top: 50px;
     padding: 5px;
 }
 
